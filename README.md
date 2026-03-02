@@ -2,9 +2,9 @@
 
 ## Exercise 1 – Override
 
-Create an object hierarchy with three classes: Worker, OnlineWorker, and OnsiteWorker.
+Create an object hierarchy with three classes: Employee, OnlineEmployee, and OnSiteEmployee.
 
-The Worker class has the attributes name, surname, and hourlyRate, and a method calculateSalary() that receives the number of hours worked as a parameter and multiplies it by the hourly rate. The child classes must override this method using @Override.
+The Worker class has the attributes name, surname, and pricePerHour, and a method calculateSalary() that receives the number of hours worked as a parameter and multiplies it by the hourly rate. The child classes must override this method using @Override.
 
 From the main() method in the Main class, make the necessary calls to demonstrate how the @Override annotation works.
 
