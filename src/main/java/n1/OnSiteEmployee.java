@@ -12,4 +12,11 @@ public class OnSiteEmployee extends Employee{
     public int calculateSalary(int numHoursWorked) {
         return numHoursWorked*super.getPricePerHour()+oil;
     }
+
+    @Deprecated
+    public void deprecatedMethod() {
+        System.out.println("This is a deprecated method");
+    }
+
+
 }
